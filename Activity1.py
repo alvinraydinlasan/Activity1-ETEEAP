@@ -7,3 +7,8 @@ final = int(input("Final: "))
 total = (prelim+midterm+semi+final)/4
 
 print("Average: ", total)
+
+if total >= 75:
+    print("Passed")
+else:
+    print("Failed")
